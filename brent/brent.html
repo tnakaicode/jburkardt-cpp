@@ -1,0 +1,217 @@
+<html>
+
+  <head>
+    <title>
+      BRENT - Algorithms for Minimization Without Derivatives
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055">
+
+    <h1 align = "center">
+      BRENT <br> Algorithms for Minimization Without Derivatives
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>BRENT</b>,
+      a C++ library which
+      contains algorithms for finding zeros or minima of
+      a scalar function of a scalar variable,
+      by Richard Brent.
+    </p>
+
+    <p>
+      The methods do not require the use of derivatives, and do not assume that
+      the function is differentiable.
+    </p>
+
+    <p>
+      This file includes some revisions suggested and implemented by John Denker.
+      In particular, it is now possible to pass either a plain function or a
+      C++ functor.  Also, a "brent" namespace was defined to make it easier to
+      avoid naming conflicts.
+    </p>
+
+    <p>
+      For a short time, the previous code will be available as "brent_old"
+      in a separate directory.
+    </p>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files described and made available on this web page
+      are distributed under
+      <a href = "https://www.gnu.org/licenses/lgpl-3.0.en.html">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Languages:
+    </h3>
+
+    <p>
+      <b>BRENT</b> is available in
+      <a href = "../../c_src/brent/brent.html">a C version</a> and
+      <a href = "../../cpp_src/brent/brent.html">a C++ version</a> and
+      <a href = "../../f_src/brent/brent.html">a FORTRAN90 version</a> and
+      <a href = "../../m_src/brent/brent.html">a MATLAB version</a> and
+      <a href = "../../py_src/brent/brent.html">a Python version</a>.
+    </p>
+
+    <h3 align = "center">
+      Related Data and Programs:
+    </h3>
+
+    <p>
+      <a href = "../../cpp_src/asa047/asa047.html">
+      ASA047</a>,
+      a C++ library which
+      minimizes a scalar function of several variables using the Nelder-Mead algorithm.
+    </p>
+
+    <p>
+      <a href = "../../cpp_src/bisection_rc/bisection_rc.html">
+      BISECTION_RC</a>,
+      a C++ library which
+      seeks a solution to the equation F(X)=0 using bisection
+      within a user-supplied change of sign interval [A,B].
+      The procedure is written using reverse communication (RC).
+    </p>
+
+    <p>
+      <a href = "../../cpp_src/brent_test/brent_test.html">
+      brent_test</a>
+    </p>
+
+    <p>
+      <a href = "../../cpp_src/compass_search/compass_search.html">
+      COMPASS_SEARCH</a>,
+      a C++ library which 
+      seeks the minimizer of a scalar function of several variables
+      using compass search, a direct search algorithm that does not use derivatives.
+    </p>
+
+    <p>
+      <a href = "../../cpp_src/gsl/gsl.html">
+      GSL</a>,
+      a C++ library which
+      includes rootfinding routines.
+    </p>
+
+    <p>
+      <a href = "../../cpp_src/test_zero/test_zero.html">
+      TEST_ZERO</a>,
+      a C++ library which
+      defines some test functions for which zeroes can be sought.
+    </p>
+
+    <p>
+      <a href = "../../cpp_src/toms178/toms178.html">
+      TOMS178</a>,
+      a C++ library which
+      optimizes a scalar functional of multiple variables using the
+      Hooke-Jeeves method.
+    </p>
+
+    <p>
+      <a href = "../../cpp_src/zero_rc/zero_rc.html">
+      ZERO_RC</a>,
+      a C++ library which
+      seeks solutions of a scalar nonlinear equation f(x) = 0
+      using reverse communication (RC).
+    </p>
+
+    <h3 align = "center">
+      Author:
+    </h3>
+
+    <p>
+      Original FORTRAN77 version by Richard Brent;
+      C++ version by John Burkardt;
+      Modifications by John Denker.
+    </p>
+
+    <h3 align = "center">
+      Reference:
+    </h3>
+
+    <p>
+      <ol>
+        <li>
+          Richard Brent,<br>
+          Algorithms for Minimization without Derivatives,<br>
+          Dover, 2002,<br>
+          ISBN: 0-486-41998-3,<br>
+          LC: QA402.5.B74.
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Source Code:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "brent.cpp">brent.cpp</a>, the source code.
+        </li>
+        <li>
+          <a href = "brent.hpp">brent.hpp</a>, the include file.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      List of Routines:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <b>GLOMIN</b> seeks a global minimum of a function F(X) in an interval [A,B].
+        </li>
+        <li>
+          <b>LOCAL_MIN</b> seeks a local minimum of a function F(X) in an interval [A,B].
+        </li>
+        <li>
+          <b>LOCAL_MIN_RC</b> seeks a minimizer of a scalar function of a scalar variable.
+        </li>
+        <li>
+          <b>R8_EPSILON</b> returns the R8 round off unit.
+        </li>
+        <li>
+          <b>R8_MAX</b> returns the maximum of two R8's.
+        </li>
+        <li>
+          <b>R8_SIGN</b> returns the sign of an R8.
+        </li>
+        <li>
+          <b>TIMESTAMP</b> prints the current YMDHMS date as a time stamp.
+        </li>
+        <li>
+          <b>ZERO</b> seeks the root of a function F(X) in an interval [A,B].
+        </li>
+        <li>
+          <b>ZERO_RC</b> seeks the root of a function F(X) in an interval [A,B].
+        </li>
+      </ul>
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on 22 January 2019.
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+  <!-- Initial HTML skeleton created by HTMLINDEX. -->
+
+</html>
