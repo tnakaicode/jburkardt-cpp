@@ -1,7 +1,7 @@
 #! /bin/bash
 #
 cd ..
-for TEST in `ls -d s*`;
+for TEST in `ls -d p*`;
 do
   if [ -d $TEST ]
   then

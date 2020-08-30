@@ -17,14 +17,15 @@
     <p>
       <b>tester</b>,
       a BASH code which 
-      calls the test programs for DEALII codes.
+      calls the test programs for C++ codes.
     </p>
 
     <p>
-      For a DEALII code called, for instance, "step-1.cc", 
-      stored in the "step-1" directory, a
-      script should be available called "step-1.sh".  tester will find
-      and run all the tests that satisfy a given pattern in an
+      For a C++ code called "prog.cpp", stored in the "prog" directory, a
+      test package may be provided.  If so, it will be in the "prog_test"
+      directory, with a source code named "prog_test.cpp" and a script to
+      run the test called "prog_test.sh".  The tester script will find
+      and run all the test codes that satisfy a given pattern in an
       ls command, that should be set by the user.
     </p>
 
@@ -46,7 +47,6 @@
       <b>tester</b> is available in
       <a href = "../../c_src/tester/tester.html">a C version</a> and
       <a href = "../../cpp_src/tester/tester.html">a C++ version</a> and
-      <a href = "../../dealii_src/tester/tester.html">a DEALII version</a> and
       <a href = "../../f77_src/tester/tester.html">a FORTRAN77 version</a> and
       <a href = "../../f_src/tester/tester.html">a FORTRAN90 version</a> and
       <a href = "../../fenics_src/tester/tester.html">a FENICS version</a> and
@@ -97,7 +97,7 @@
     <hr>
 
     <i>
-      Last revised on 23 May 2020.
+      Last revised on 18 January 2020.
     </i>
 
     <!-- John Burkardt -->
