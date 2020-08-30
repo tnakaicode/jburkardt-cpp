@@ -1,0 +1,24 @@
+28 April 2020 09:04:42 AM
+
+predator_prey_ode_test:
+  C++ version
+  Test predator_prey_ode using euler, midpoint.
+
+predator_prey_euler
+  A pair of ordinary differential equations for a population
+  of predators and prey are solved using euler().
+
+  predator_prey_euler: data stored in 'predator_prey_euler_data.txt'.
+  predator_prey_euler: plot commands stored in 'predator_prey_euler_commands.txt'.
+
+predator_prey_midpoint
+  A pair of ordinary differential equations for a population
+  of predators and prey are solved using midpoint_fixed().
+
+  predator_prey_midpoint: data stored in 'predator_prey_midpoint_data.txt'.
+  predator_prey_midpoint: plot commands stored in 'predator_prey_midpoint_commands.txt'.
+
+predator_prey_ode_test:
+  Normal end of execution.
+
+28 April 2020 09:04:42 AM
