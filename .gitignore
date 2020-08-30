@@ -1,0 +1,22 @@
+# VSCode
+.vscode/*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyc[cod]
+
+# Build
+build/*
+
+# Doc
+*.pdf
+*.docx
+tex2pdf*/*
+
+#tmp
+tmp/*
+temp_*/*
+*/temp_*/*
+
+people.sc.fsu.edu
