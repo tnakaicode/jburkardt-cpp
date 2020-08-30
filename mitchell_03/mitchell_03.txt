@@ -1,0 +1,125 @@
+mode = 1
+
+Beginning convergence study...
+
+Cycle 0
+Number of active cells:31
+Number of degrees of freedom:306
+Assembling matrix and right hand side...done (0.164524s)
+Solving linear system... done (0.007991s)
+Cycle 1
+Number of active cells:124
+Number of degrees of freedom:1106
+Assembling matrix and right hand side...done (0.181445s)
+Solving linear system... done (0.039568s)
+Cycle 2
+Number of active cells:496
+Number of degrees of freedom:4194
+Assembling matrix and right hand side...done (0.222508s)
+Solving linear system... done (0.16946s)
+Cycle 3
+Number of active cells:1984
+Number of degrees of freedom:16322
+Assembling matrix and right hand side...done (0.847753s)
+Solving linear system... done (0.929199s)
+
+Error analysis:
+cycle cells dofs        L2             H1        Linfty    Time  
+    0    31   306 9.430e-02    - 5.950e+00    - 2.354e-01 0.4106 
+    1   124  1106 8.208e-02 0.20 5.944e+00 0.00 1.626e-01 0.7296 
+    2   496  4194 7.803e-02 0.07 5.943e+00 0.00 1.137e-01 1.0155 
+    3  1984 16322 7.659e-02 0.03 5.942e+00 0.00 1.102e-01 2.8795 
+
+Beginning adaptive meshing using gradient error estimate...
+
+Cycle 0
+Number of active cells:31
+Number of degrees of freedom:306
+Assembling matrix and right hand side...done (0.013385s)
+Solving linear system... done (0.007482s)
+Cycle 1
+Refining mesh...done (0.0475s)
+Number of active cells:52
+Number of degrees of freedom:516
+Assembling matrix and right hand side...done (0.18621s)
+Solving linear system... done (0.016559s)
+Cycle 2
+Refining mesh...done (0.056565s)
+Number of active cells:85
+Number of degrees of freedom:840
+Assembling matrix and right hand side...done (0.144496s)
+Solving linear system... done (0.018969s)
+Cycle 3
+Refining mesh...done (0.111735s)
+Number of active cells:139
+Number of degrees of freedom:1348
+Assembling matrix and right hand side...done (0.061082s)
+Solving linear system... done (0.032323s)
+Cycle 4
+Refining mesh...done (0.086516s)
+Number of active cells:223
+Number of degrees of freedom:2098
+Assembling matrix and right hand side...done (0.097671s)
+Solving linear system... done (0.066721s)
+Cycle 5
+Refining mesh...done (0.124387s)
+Number of active cells:358
+Number of degrees of freedom:3230
+Assembling matrix and right hand side...done (0.156253s)
+Solving linear system... done (0.130733s)
+
+Error analysis:
+cycle cells dofs    L2        H1      Linfty    Time  
+    0    31  306 9.430e-02 5.950e+00 2.354e-01 0.1494 
+    1    52  516 9.175e-02 5.947e+00 2.462e-01 0.4829 
+    2    85  840 8.205e-02 5.944e+00 1.626e-01 0.5595 
+    3   139 1348 7.902e-02 5.944e+00 1.214e-01 0.7255 
+    4   223 2098 7.894e-02 5.945e+00 1.214e-01 0.7307 
+    5   358 3230 7.697e-02 5.943e+00 1.109e-01 0.8885 
+
+Beginning adaptive meshing using hessian error estimate...
+
+Cycle 0
+Number of active cells:31
+Number of degrees of freedom:306
+Assembling matrix and right hand side...done (0.013085s)
+Solving linear system... done (0.005694s)
+Cycle 1
+Refining mesh...done (0.052302s)
+Number of active cells:52
+Number of degrees of freedom:528
+Assembling matrix and right hand side...done (0.258073s)
+Solving linear system... done (0.012797s)
+Cycle 2
+Refining mesh...done (0.107642s)
+Number of active cells:94
+Number of degrees of freedom:926
+Assembling matrix and right hand side...done (0.095859s)
+Solving linear system... done (0.022464s)
+Cycle 3
+Refining mesh...done (0.142887s)
+Number of active cells:157
+Number of degrees of freedom:1516
+Assembling matrix and right hand side...done (0.070325s)
+Solving linear system... done (0.05747s)
+Cycle 4
+Refining mesh...done (0.074239s)
+Number of active cells:253
+Number of degrees of freedom:2440
+Assembling matrix and right hand side...done (0.114257s)
+Solving linear system... done (0.09504s)
+Cycle 5
+Refining mesh...done (0.101044s)
+Number of active cells:406
+Number of degrees of freedom:3840
+Assembling matrix and right hand side...done (0.18287s)
+Solving linear system... done (0.148586s)
+
+Error analysis:
+cycle cells dofs    L2        H1      Linfty    Time  
+    0    31  306 9.430e-02 5.950e+00 2.354e-01 0.1277 
+    1    52  528 8.268e-02 5.944e+00 1.625e-01 0.5465 
+    2    94  926 7.835e-02 5.943e+00 1.137e-01 0.5875 
+    3   157 1516 7.678e-02 5.942e+00 1.098e-01 0.7529 
+    4   253 2440 7.585e-02 5.942e+00 1.083e-01 0.7896 
+    5   406 3840 7.557e-02 5.942e+00 1.078e-01 0.9690 

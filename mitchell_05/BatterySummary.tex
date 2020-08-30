@@ -1,0 +1,55 @@
+\documentclass[a4paper]{article} 
+\usepackage{style}
+
+\begin{document}\title{Mitchell Problem \#5}
+\author{Lukas Bystricky} \date{\today} \maketitle
+
+\section{Problem}
+
+\[ -p \frac{\partial^2 u}{\partial x^2} - q \frac{\partial^2 u}{\partial y^2} = f\]
+with boundary condtions:
+\[p \frac{\partial u}{\partial x}\frac{\partial y}{\partial s} - q\frac{\partial u}{\partial y}\frac{\partial x}{\partial s} + c u = g\]
+where $p$, $q$, $c$, $f$ and $g$ are piecewise constant functions over our domain.
+
+\section{Weak Formulation}
+
+Multiplying by test function $\phi$ and integrating over $\Omega$ yields:
+
+\[-\int_\Omega \left(p\frac{\partial^2 u}{\partial x^2} + q \frac{\partial^2 u}{\partial y^2}\right)\phi d\Omega = \int_\Omega f\phi d\Omega\]
+
+We can integrate by parts:
+\begin{align*}
+	&\int_\Omega p\frac{\partial^2 u}{\partial x^2}\phi = p\left(\int_\Gamma u_x\phi d\Gamma - \int_\Omega u_x	\phi_x d\Omega\right)\\
+	&\int _\Omega q\frac{\partial^2 u}{\partial y^2}\phi = q\left(\int_\Gamma u_y\phi d\Gamma - \int_\Omega u_y\phi_y d\Omega\right)\\
+\end{align*}
+Therefore the weak form can expressed as:
+\[\int_\Omega p u_x\phi_x + q u_y\phi_y d\Omega - \int_\Gamma \left(p u_x + q u_y\right)\phi d\Gamma = \int_\Omega f \phi d\Omega\] 
+
+\section{Boundary Conditions}
+
+Consider a rectangular domain. We can write the boundary integral for each of the 4 sides:
+\begin{enumerate}
+	\item \textbf{bottom}: here $\frac{\partial x}{\partial s} = 1$ and $\frac{\partial y}{\partial s} = 0$. Then the boundary condtion simplifies to:
+	\[ -q\frac{\partial u}{\partial y} + cu  = g \Rightarrow u_y = \frac{c u}{q} - \frac{g}{q}\]
+	and the boundary integral can be written as:
+	\[\int_\Gamma \left(p u_x + q \left(\frac{c u}{q} - \frac{g}{q}\right)\right)\phi d\Gamma = \int_\Gamma \left(p u_x + cu - g \right)\phi d\Gamma\]
+	
+	\item \textbf{right}: $\frac{\partial x}{\partial s}=0$ and $\frac{\partial y}{\partial s} = 1$
+	\begin{align*}
+		\Rightarrow & u_x =  \frac{g}{p} -\frac{c u}{p} \\
+					&\int_\Gamma \left(p u_x + q u_y\right)\phi d\Gamma = \int_\Gamma \left(g - cu + q u_y\right)\phi d\Gamma
+	\end{align*}
+	
+	\item \textbf{top}: $\frac{\partial x}{\partial s}=-1$ and $\frac{\partial y}{\partial s} = 0$
+	\begin{align*}
+		\Rightarrow & u_y = \frac{g}{q} - \frac{c u}{q} \\
+					&\int_\Gamma \left(p u_x + q u_y\right)\phi d\Gamma = \int_\Gamma \left( p u_x + g - cu\right)\phi d\Gamma
+	\end{align*}
+	
+	\item \textbf{left}: $\frac{\partial x}{\partial s}=0$ and $\frac{\partial y}{\partial s} = -1$
+	\begin{align*}
+		\Rightarrow & u_x =  \frac{c u}{p} - \frac{g}{p} \\
+					&\int_\Gamma \left(p u_x + q u_y\right)\phi d\Gamma = \int_\Gamma \left( cu - g + q u_y\right)\phi d\Gamma
+	\end{align*}
+\end{enumerate}
+\end{document}

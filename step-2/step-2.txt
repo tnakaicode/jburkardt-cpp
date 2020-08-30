@@ -1,0 +1,49 @@
+
+step-2.sh
+  A record of the basic commands necessary to set up the
+  step-2 example, and then to run it, on my desktop running Linux
+  and using a common file system.
+
+1) Remove old files created by make.
+
+
+2) Use cmake to create the Makefile.
+
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Autopilot invoked
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/burkardt/public_html/dealii_src/step-2
+
+3) Use 'make run' to compile, link and run the step-1 example.
+
+Scanning dependencies of target step-2
+[ 33%] Building CXX object CMakeFiles/step-2.dir/step-2.cc.o
+[ 66%] Linking CXX executable step-2
+[ 66%] Built target step-2
+Scanning dependencies of target run
+[100%] Run step-2 with Debug configuration
+[100%] Built target run
+
+4) Convert sparsity patterns to PNG files.
+
+gnuplot created sparsity_pattern.1.png
+Normal end of execution.
+gnuplot created sparsity_pattern.2.png
+Normal end of execution.
+
+step-2.sh:
+  Normal end of execution.

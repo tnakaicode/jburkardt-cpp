@@ -1,0 +1,126 @@
+a = 2.500000
+b = 0.000000
+
+Beginning convergence study...
+
+Cycle 0
+Number of active cells:256
+Number of degrees of freedom:1089
+Assembling matrix and right hand side...done (0.215813s)
+Solving system...done (0.032218s)
+Cycle 1
+Number of active cells:1024
+Number of degrees of freedom:4225
+Assembling matrix and right hand side...done (0.258471s)
+Solving system...done (0.095781s)
+Cycle 2
+Number of active cells:4096
+Number of degrees of freedom:16641
+Assembling matrix and right hand side...done (1.04128s)
+Solving system...done (0.606441s)
+Cycle 3
+Number of active cells:16384
+Number of degrees of freedom:66049
+Assembling matrix and right hand side...done (4.15893s)
+Solving system...done (2.62675s)
+
+Error analysis:
+cycle cells dofs        L2             H1        Linfty    Time   
+    0   256  1089 1.373e-04    - 4.515e-03    - 2.888e-04  0.9015 
+    1  1024  4225 4.057e-05 1.76 1.176e-03 1.94 7.300e-05  1.0425 
+    2  4096 16641 1.389e-05 1.55 3.059e-04 1.94 2.153e-05  3.1507 
+    3 16384 66049 4.886e-06 1.51 7.961e-05 1.94 6.906e-06 11.5747 
+
+Beginning adaptive meshing using gradient error estimate...
+
+Cycle 0
+Number of active cells:256
+Number of degrees of freedom:1089
+Assembling matrix and right hand side...done (0.066804s)
+Solving system...done (0.030156s)
+Cycle 1
+Refining mesh...done (0.108225s)
+Number of active cells:412
+Number of degrees of freedom:1783
+Assembling matrix and right hand side...done (0.106224s)
+Solving system...done (0.051317s)
+Cycle 2
+Refining mesh...done (0.169849s)
+Number of active cells:664
+Number of degrees of freedom:2847
+Assembling matrix and right hand side...done (0.169883s)
+Solving system...done (0.072396s)
+Cycle 3
+Refining mesh...done (0.257236s)
+Number of active cells:1066
+Number of degrees of freedom:4531
+Assembling matrix and right hand side...done (0.272909s)
+Solving system...done (0.132884s)
+Cycle 4
+Refining mesh...done (0.416573s)
+Number of active cells:1696
+Number of degrees of freedom:7163
+Assembling matrix and right hand side...done (0.441513s)
+Solving system...done (0.267674s)
+Cycle 5
+Refining mesh...done (0.633858s)
+Number of active cells:2704
+Number of degrees of freedom:11249
+Assembling matrix and right hand side...done (0.689563s)
+Solving system...done (0.349254s)
+
+Error analysis:
+cycle cells dofs     L2        H1      Linfty    Time  
+    0   256  1089 1.373e-04 4.515e-03 2.888e-04 0.6235 
+    1   412  1783 1.328e-04 4.102e-03 2.883e-04 0.7799 
+    2   664  2847 1.103e-04 2.941e-03 2.762e-04 0.9787 
+    3  1066  4531 7.180e-05 1.820e-03 2.378e-04 1.3121 
+    4  1696  7163 5.622e-05 1.421e-03 2.109e-04 1.9213 
+    5  2704 11249 5.079e-05 1.232e-03 2.070e-04 2.7379 
+
+Beginning adaptive meshing using hessian error estimate...
+
+Cycle 0
+Number of active cells:256
+Number of degrees of freedom:1089
+Assembling matrix and right hand side...done (0.0662s)
+Solving system...done (0.023405s)
+Cycle 1
+Refining mesh...done (0.079481s)
+Number of active cells:412
+Number of degrees of freedom:1787
+Assembling matrix and right hand side...done (0.106892s)
+Solving system...done (0.054191s)
+Cycle 2
+Refining mesh...done (0.148035s)
+Number of active cells:664
+Number of degrees of freedom:3007
+Assembling matrix and right hand side...done (0.173202s)
+Solving system...done (0.044254s)
+Cycle 3
+Refining mesh...done (0.217909s)
+Number of active cells:1066
+Number of degrees of freedom:4771
+Assembling matrix and right hand side...done (0.277105s)
+Solving system...done (0.131526s)
+Cycle 4
+Refining mesh...done (0.341256s)
+Number of active cells:1708
+Number of degrees of freedom:7681
+Assembling matrix and right hand side...done (0.444573s)
+Solving system...done (0.199247s)
+Cycle 5
+Refining mesh...done (0.560242s)
+Number of active cells:2734
+Number of degrees of freedom:12217
+Assembling matrix and right hand side...done (0.711399s)
+Solving system...done (0.339731s)
+
+Error analysis:
+cycle cells dofs     L2        H1      Linfty    Time  
+    0   256  1089 1.373e-04 4.515e-03 2.888e-04 0.5499 
+    1   412  1787 6.920e-05 3.491e-03 1.249e-04 0.6903 
+    2   664  3007 5.358e-05 3.225e-03 1.064e-04 0.9506 
+    3  1066  4771 4.426e-05 2.665e-03 1.005e-04 1.3099 
+    4  1708  7681 3.036e-05 1.791e-03 9.672e-05 1.8207 
+    5  2734 12217 1.662e-05 1.149e-03 9.116e-05 2.6863 

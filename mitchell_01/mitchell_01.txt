@@ -1,0 +1,135 @@
+p = 10.000000
+
+Beginning convergence study...
+
+Cycle 0
+Number of active cells:256
+Number of degrees of freedom:1089
+Assembling matrix and right hand side...done: 0.225793
+Solving system...done: 0.026659
+Cycle 1
+Number of active cells:1024
+Number of degrees of freedom:4225
+Assembling matrix and right hand side...done: 0.336536
+Solving system...done: 0.107942
+Cycle 2
+Number of active cells:4096
+Number of degrees of freedom:16641
+Assembling matrix and right hand side...done: 1.33805
+Solving system...done: 0.604569
+Cycle 3
+Number of active cells:16384
+Number of degrees of freedom:66049
+Assembling matrix and right hand side...done: 5.3377
+Solving system...done: 2.59056
+
+Error analysis:
+cycle cells dofs        L2             H1        Linfty   
+    0   256  1089 3.243e-04    - 4.067e-02    - 2.965e-03 
+    1  1024  4225 4.125e-05 2.97 1.026e-02 1.99 3.813e-04 
+    2  4096 16641 5.179e-06 2.99 2.569e-03 2.00 4.702e-05 
+    3 16384 66049 6.481e-07 3.00 6.427e-04 2.00 5.828e-06 
+
+Beginning adaptive meshing using gradient error estimate...
+
+Cycle 0
+Number of active cells:256
+Number of degrees of freedom:1089
+Assembling matrix and right hand side...done: 0.085006
+Solving system...done: 0.027908
+Cycle 1
+Refining mesh...
+done: 0.119792
+Number of active cells:412
+Number of degrees of freedom:1777
+Assembling matrix and right hand side...done: 0.1442
+Solving system...done: 0.069189
+Cycle 2
+Refining mesh...
+done: 0.182418
+Number of active cells:676
+Number of degrees of freedom:2961
+Assembling matrix and right hand side...done: 0.250345
+Solving system...done: 0.084167
+Cycle 3
+Refining mesh...
+done: 0.274242
+Number of active cells:1096
+Number of degrees of freedom:4657
+Assembling matrix and right hand side...done: 0.377916
+Solving system...done: 0.194493
+Cycle 4
+Refining mesh...
+done: 0.450053
+Number of active cells:1756
+Number of degrees of freedom:7537
+Assembling matrix and right hand side...done: 0.607246
+Solving system...done: 0.228302
+Cycle 5
+Refining mesh...
+done: 0.686707
+Number of active cells:2812
+Number of degrees of freedom:11793
+Assembling matrix and right hand side...done: 0.998894
+Solving system...done: 0.532307
+
+Error analysis:
+cycle cells dofs     L2        H1      Linfty   
+    0   256  1089 3.243e-04 4.067e-02 2.965e-03 
+    1   412  1777 1.032e-04 1.553e-02 6.632e-04 
+    2   676  2961 9.540e-05 1.292e-02 6.652e-04 
+    3  1096  4657 4.730e-05 6.930e-03 3.075e-04 
+    4  1756  7537 3.879e-05 5.610e-03 2.790e-04 
+    5  2812 11793 3.797e-05 5.121e-03 2.787e-04 
+
+Beginning adaptive meshing using hessian error estimate...
+
+Cycle 0
+Number of active cells:256
+Number of degrees of freedom:1089
+Assembling matrix and right hand side...done: 0.101731
+Solving system...done: 0.023186
+Cycle 1
+Refining mesh...
+done: 0.082686
+Number of active cells:412
+Number of degrees of freedom:1777
+Assembling matrix and right hand side...done: 0.141642
+Solving system...done: 0.027292
+Cycle 2
+Refining mesh...
+done: 0.142511
+Number of active cells:676
+Number of degrees of freedom:3025
+Assembling matrix and right hand side...done: 0.233688
+Solving system...done: 0.086782
+Cycle 3
+Refining mesh...
+done: 0.234551
+Number of active cells:1096
+Number of degrees of freedom:5041
+Assembling matrix and right hand side...done: 0.371257
+Solving system...done: 0.131485
+Cycle 4
+Refining mesh...
+done: 0.371602
+Number of active cells:1756
+Number of degrees of freedom:8033
+Assembling matrix and right hand side...done: 0.593583
+Solving system...done: 0.266485
+Cycle 5
+Refining mesh...
+done: 0.613291
+Number of active cells:2824
+Number of degrees of freedom:12729
+Assembling matrix and right hand side...done: 1.11375
+Solving system...done: 0.591905
+
+Error analysis:
+cycle cells dofs     L2        H1      Linfty   
+    0   256  1089 3.243e-04 4.067e-02 2.965e-03 
+    1   412  1777 1.032e-04 1.553e-02 6.632e-04 
+    2   676  3025 5.055e-05 1.071e-02 3.849e-04 
+    3  1096  5041 2.639e-05 6.798e-03 3.545e-04 
+    4  1756  8033 1.060e-05 3.264e-03 7.380e-05 
+    5  2824 12729 4.785e-06 2.123e-03 4.374e-05 

@@ -1,0 +1,6 @@
+set term png
+set output "sparsity_pattern.2.png"
+set title "sparsity_pattern.2"
+set timestamp
+plot "sparsity_pattern.2" with points
+quit

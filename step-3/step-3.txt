@@ -1,0 +1,4 @@
+Number of active cells: 1024
+Number of degrees of freedom: 1089
+DEAL:cg::Starting value 0.121094
+DEAL:cg::Convergence step 48 value 5.33692e-13

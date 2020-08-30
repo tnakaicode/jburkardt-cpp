@@ -1,0 +1,143 @@
+a = 0.100000
+alpha = 0.785390
+beta = -14.922565
+p1 = 161.447639
+p2 = 1.000000
+p3 = 161.447639
+p4 = 1.000000
+
+Beginning convergence study...
+
+Cycle 0
+Number of active cells:256
+Number of degrees of freedom:1089
+Assembling matrix and right hand side...done (0.070316s)
+Solving linear system... done (0.034317s)
+Cycle 1
+Number of active cells:1024
+Number of degrees of freedom:4225
+Assembling matrix and right hand side...done (0.282702s)
+Solving linear system... done (0.129603s)
+Cycle 2
+Number of active cells:4096
+Number of degrees of freedom:16641
+Assembling matrix and right hand side...done (1.1378s)
+Solving linear system... done (0.604947s)
+Cycle 3
+Number of active cells:16384
+Number of degrees of freedom:66049
+Assembling matrix and right hand side...done (4.47393s)
+Solving linear system... done (2.74726s)
+Cycle 4
+Number of active cells:65536
+Number of degrees of freedom:263169
+Assembling matrix and right hand side...done (18.578s)
+Solving linear system... done (11.6901s)
+Cycle 5
+Number of active cells:262144
+Number of degrees of freedom:1050625
+Assembling matrix and right hand side...done (75.5004s)
+Solving linear system... done (59.0629s)
+
+Error analysis:
+cycle cells   dofs         L2        Linfty     Time   
+    0    256    1089 9.026e-03    - 3.624e-02   0.5875 
+    1   1024    4225 7.387e-03 0.29 3.486e-02   1.0071 
+    2   4096   16641 6.104e-03 0.28 3.328e-02   3.0397 
+    3  16384   66049 5.086e-03 0.26 3.161e-02  11.2716 
+    4  65536  263169 4.267e-03 0.25 2.991e-02  46.6047 
+    5 262144 1050625 3.601e-03 0.24 2.823e-02 199.3241 
+
+Beginning adaptive meshing using gradient error estimate...
+
+Cycle 0
+Number of active cells:256
+Number of degrees of freedom:1089
+Assembling matrix and right hand side...done (0.074326s)
+Solving linear system... done (0.012606s)
+Cycle 1
+Refining mesh...done (0.104283s)
+Number of active cells:490
+Number of degrees of freedom:2137
+Assembling matrix and right hand side...done (0.139977s)
+Solving linear system... done (0.062529s)
+Cycle 2
+Refining mesh...done (0.201691s)
+Number of active cells:940
+Number of degrees of freedom:4033
+Assembling matrix and right hand side...done (0.259325s)
+Solving linear system... done (0.103485s)
+Cycle 3
+Refining mesh...done (0.402847s)
+Number of active cells:1792
+Number of degrees of freedom:7629
+Assembling matrix and right hand side...done (0.494896s)
+Solving linear system... done (0.266078s)
+Cycle 4
+Refining mesh...done (0.746664s)
+Number of active cells:3406
+Number of degrees of freedom:14237
+Assembling matrix and right hand side...done (0.936734s)
+Solving linear system... done (0.503102s)
+Cycle 5
+Refining mesh...done (1.39434s)
+Number of active cells:6460
+Number of degrees of freedom:26809
+Assembling matrix and right hand side...done (1.78248s)
+Solving linear system... done (1.00886s)
+
+Error analysis:
+cycle cells dofs     L2      Linfty    Time  
+    0   256  1089 9.026e-03 3.624e-02 0.5840 
+    1   490  2137 7.387e-03 3.486e-02 0.8011 
+    2   940  4033 6.104e-03 3.328e-02 1.1440 
+    3  1792  7629 5.087e-03 3.161e-02 1.9019 
+    4  3406 14237 4.268e-03 2.991e-02 3.2589 
+    5  6460 26809 3.602e-03 2.822e-02 5.8755 
+
+Beginning adaptive meshing using hessian error estimate...
+
+Cycle 0
+Number of active cells:256
+Number of degrees of freedom:1089
+Assembling matrix and right hand side...done (0.071794s)
+Solving linear system... done (0.023626s)
+Cycle 1
+Refining mesh...done (0.107566s)
+Number of active cells:490
+Number of degrees of freedom:2145
+Assembling matrix and right hand side...done (0.137588s)
+Solving linear system... done (0.059264s)
+Cycle 2
+Refining mesh...done (0.167826s)
+Number of active cells:934
+Number of degrees of freedom:4169
+Assembling matrix and right hand side...done (0.264972s)
+Solving linear system... done (0.094076s)
+Cycle 3
+Refining mesh...done (0.317181s)
+Number of active cells:1780
+Number of degrees of freedom:8057
+Assembling matrix and right hand side...done (0.522905s)
+Solving linear system... done (0.229606s)
+Cycle 4
+Refining mesh...done (0.625215s)
+Number of active cells:3388
+Number of degrees of freedom:15505
+Assembling matrix and right hand side...done (1.03319s)
+Solving linear system... done (0.412009s)
+Cycle 5
+Refining mesh...done (1.1845s)
+Number of active cells:6448
+Number of degrees of freedom:29781
+Assembling matrix and right hand side...done (1.85176s)
+Solving linear system... done (0.895865s)
+
+Error analysis:
+cycle cells dofs     L2      Linfty    Time  
+    0   256  1089 9.026e-03 3.624e-02 0.5020 
+    1   490  2145 7.387e-03 3.486e-02 0.7583 
+    2   934  4169 6.104e-03 3.328e-02 1.1267 
+    3  1780  8057 5.086e-03 3.161e-02 1.8899 
+    4  3388 15505 4.267e-03 2.991e-02 3.1858 
+    5  6448 29781 3.601e-03 2.823e-02 5.7076 

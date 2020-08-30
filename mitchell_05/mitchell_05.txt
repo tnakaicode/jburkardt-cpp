@@ -1,0 +1,94 @@
+
+Beginning convergence study...
+
+Cycle 0
+Number of active cells:1134
+Number of degrees of freedom:4673
+Assembling matrix and right hand side...done (0.234291s)
+Solving linear system... done (0.167195s)
+Cycle 1
+Number of active cells:4536
+Number of degrees of freedom:18417
+Assembling matrix and right hand side...done (0.881841s)
+Solving linear system... done (0.760095s)
+Cycle 2
+Number of active cells:18144
+Number of degrees of freedom:73121
+Assembling matrix and right hand side...done (3.47322s)
+Solving linear system... done (3.08829s)
+
+Beginning adaptive meshing using gradient error estimate...
+
+Cycle 0
+Number of active cells:1134
+Number of degrees of freedom:4673
+Assembling matrix and right hand side...done (0.231607s)
+Solving linear system... done (0.181711s)
+Cycle 1
+Refining mesh...done (0.631444s)
+Number of active cells:1815
+Number of degrees of freedom:7685
+Assembling matrix and right hand side...done (0.36195s)
+Solving linear system... done (0.266744s)
+Cycle 2
+Refining mesh...done (0.778621s)
+Number of active cells:2907
+Number of degrees of freedom:12429
+Assembling matrix and right hand side...done (0.570245s)
+Solving linear system... done (0.390095s)
+Cycle 3
+Refining mesh...done (1.17932s)
+Number of active cells:4656
+Number of degrees of freedom:19793
+Assembling matrix and right hand side...done (0.901492s)
+Solving linear system... done (0.689879s)
+Cycle 4
+Refining mesh...done (1.89529s)
+Number of active cells:7455
+Number of degrees of freedom:31473
+Assembling matrix and right hand side...done (1.42938s)
+Solving linear system... done (1.15543s)
+Cycle 5
+Refining mesh...done (2.91826s)
+Number of active cells:11934
+Number of degrees of freedom:50260
+Assembling matrix and right hand side...done (2.27748s)
+Solving linear system... done (1.99477s)
+
+Beginning adaptive meshing using hessian error estimate...
+
+Cycle 0
+Number of active cells:1134
+Number of degrees of freedom:4673
+Assembling matrix and right hand side...done (0.230947s)
+Solving linear system... done (0.166988s)
+Cycle 1
+Refining mesh...done (0.495821s)
+Number of active cells:1815
+Number of degrees of freedom:7907
+Assembling matrix and right hand side...done (0.360805s)
+Solving linear system... done (0.284109s)
+Cycle 2
+Refining mesh...done (0.669126s)
+Number of active cells:2907
+Number of degrees of freedom:12969
+Assembling matrix and right hand side...done (0.580208s)
+Solving linear system... done (0.409363s)
+Cycle 3
+Refining mesh...done (0.928402s)
+Number of active cells:4653
+Number of degrees of freedom:21104
+Assembling matrix and right hand side...done (0.921128s)
+Solving linear system... done (0.618515s)
+Cycle 4
+Refining mesh...done (1.54495s)
+Number of active cells:7452
+Number of degrees of freedom:34191
+Assembling matrix and right hand side...done (1.46606s)
+Solving linear system... done (1.03007s)
+Cycle 5
+Refining mesh...done (2.5124s)
+Number of active cells:11928
+Number of degrees of freedom:55167
+Assembling matrix and right hand side...done (2.33785s)
+Solving linear system... done (1.68077s)

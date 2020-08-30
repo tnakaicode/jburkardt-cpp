@@ -1,0 +1,8 @@
+set term png
+set output 'solution.png'
+set style data lines
+set xlabel "<--X-->"
+set ylabel "<--Y-->"
+set title "step-3"
+set timestamp
+splot 'solution.gpl'

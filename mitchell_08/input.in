@@ -1,0 +1,11 @@
+#input file for FEM, loaded into deal.ii
+#specify the following parameters:
+nx: 17
+ny: 17
+N: 10
+#specify kinds of tests to run
+convergence_test: 1
+adaptive_gradient: 1
+adaptive_hessian: 1
+convergence_cycles: 5
+adaptive_cycles: 5

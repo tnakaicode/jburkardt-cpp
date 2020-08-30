@@ -1,0 +1,17 @@
+#input file for FEM, loaded into deal.ii
+#specify the following parameters:
+nx: 17
+ny: 17
+a: 0.1
+alpha: 0.78539
+beta: -14.92256510455152
+p1: 161.4476387915881
+p2: 1
+p3: 161.4476387915881
+p4: 1
+#specify kinds of tests to run
+convergence_test: 1
+adaptive_gradient: 1
+adaptive_hessian: 1
+convergence_cycles: 5
+adaptive_cycles: 5

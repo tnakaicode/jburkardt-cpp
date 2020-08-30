@@ -1,0 +1,9 @@
+#input file for FEM, loaded into deal.ii
+#specify the following parameters:
+omega: 3.92699081699
+#specify kinds of tests to run
+convergence_test: 1
+adaptive_gradient: 1
+adaptive_hessian: 1
+convergence_cycles: 3
+adaptive_cycles: 5
